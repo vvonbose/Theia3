@@ -8,4 +8,9 @@
     <string name="voice_only">Voice Only</string>
     <string name="voice_text"><![CDATA[Voice & Text]]></string>
     <string name="add_contact">Add Contact</string>
+    <string name="dir1">Walk 30 steps forward</string>
+    <string name="dir2">Turn left</string>
+    <string name="dir3">Walk 50 steps forward</string>
+    <string name="dir4">Your destination is on the right</string>
+    <string name="next_direction">Next Direction</string>
 </resources>

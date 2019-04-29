@@ -20,4 +20,11 @@
         android:inputType="textPersonName"
         tools:layout_editor_absoluteX="85dp"
         tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/btnStartNav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/navigate_label"
+        tools:text="@string/navigate_label" />
 </LinearLayout>
