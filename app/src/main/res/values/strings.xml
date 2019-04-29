@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Theia2</string>
+    <string name="navigate_label">NAVIGATE</string>
+    <string name="contacts_label">CONTACTS</string>
+    <string name="settings_label">SETTINGS</string>
+    <string name="input_destination">Input Destination</string>
+    <string name="how_do_you_want_to_output_instructions">How do you want to output instructions?</string>
+    <string name="voice_only">Voice Only</string>
+    <string name="voice_text"><![CDATA[Voice & Text]]></string>
+    <string name="add_contact">Add Contact</string>
 </resources>

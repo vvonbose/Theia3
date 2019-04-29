@@ -5,32 +5,33 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.baner.theia2.MainActivity">
+    tools:context="com.example.baner.theia2.Activity4Settings">
 
-    <Button
-        android:id="@+id/btNAV"
+    <TextView
+        android:id="@+id/tvOutput"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="45dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:layout_marginTop="10dp"
-        android:text="@string/navigate_label" />
+        android:gravity="center_horizontal"
+        android:text="@string/how_do_you_want_to_output_instructions" />
 
-    <Button
-        android:id="@+id/btnContact"
+    <CheckBox
+        android:id="@+id/cbVoiceOnly"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:layout_marginTop="10dp"
-        android:text="@string/contacts_label" />
+        android:text="@string/voice_only" />
 
-    <Button
-        android:id="@+id/btnSet"
+    <CheckBox
+        android:id="@+id/cbVoiceText"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:layout_marginTop="10dp"
-        android:text="@string/settings_label" />
+        android:text="@string/voice_text" />
 </LinearLayout>
